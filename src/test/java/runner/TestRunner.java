@@ -10,4 +10,7 @@ import org.junit.runner.RunWith;
     glue = "stepDefinitions"
 )
 public class TestRunner {
+    public void printDummyMessage() {
+        System.out.println("This is a dummy message.");
+    }
 }
